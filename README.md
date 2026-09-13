@@ -1,6 +1,6 @@
 # Final-answer instructions in multilingual mathematical evaluation
 
-Experiment materials for Zehao Li's study of final-answer instructions with Qwen2.5-7B-Instruct and Mistral-7B-Instruct-v0.3 in English, Chinese and Spanish.
+Experiment materials for study of final-answer instructions with Qwen2.5-7B-Instruct and Mistral-7B-Instruct-v0.3 in English, Chinese and Spanish.
 
 ## Reproduce the reported analyses
 
