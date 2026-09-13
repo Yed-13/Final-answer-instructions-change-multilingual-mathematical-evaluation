@@ -1,0 +1,21 @@
+{
+  "server_flags": [
+    "-ngl",
+    "99",
+    "-c",
+    "16384",
+    "-np",
+    "4",
+    "--jinja",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "8087"
+  ],
+  "concurrency": 4,
+  "temperature": 0,
+  "top_p": 1,
+  "cache_prompt": false,
+  "max_tokens": 512,
+  "seed": 20260913
+}

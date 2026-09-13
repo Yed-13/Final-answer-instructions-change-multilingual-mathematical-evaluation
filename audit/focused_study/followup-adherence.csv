@@ -1,0 +1,13 @@
+model,language,instruction,requests,marker_present,text_before_marker,median_completion_tokens
+Qwen/Qwen2.5-7B-Instruct,en,restrictive_brief,100,100,0,5.0
+Qwen/Qwen2.5-7B-Instruct,en,minimal_brief,100,100,100,165.0
+Qwen/Qwen2.5-7B-Instruct,es,restrictive_brief,100,100,0,5.0
+Qwen/Qwen2.5-7B-Instruct,es,minimal_brief,100,99,99,210.0
+Qwen/Qwen2.5-7B-Instruct,zh,restrictive_brief,100,100,1,5.0
+Qwen/Qwen2.5-7B-Instruct,zh,minimal_brief,100,99,83,134
+mistralai/Mistral-7B-Instruct-v0.3,en,restrictive_brief,100,99,99,202.0
+mistralai/Mistral-7B-Instruct-v0.3,en,minimal_brief,100,94,94,210.0
+mistralai/Mistral-7B-Instruct-v0.3,es,restrictive_brief,100,99,99,190.0
+mistralai/Mistral-7B-Instruct-v0.3,es,minimal_brief,100,98,98,198.0
+mistralai/Mistral-7B-Instruct-v0.3,zh,restrictive_brief,100,100,100,202.0
+mistralai/Mistral-7B-Instruct-v0.3,zh,minimal_brief,100,93,93,256.0

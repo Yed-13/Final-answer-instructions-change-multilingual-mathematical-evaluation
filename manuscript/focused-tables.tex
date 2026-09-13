@@ -1,0 +1,64 @@
+\begin{table}[ht]
+\centering\small
+\caption{Published-wording MGSM results under brief-solution instructions. Every row has 250 requested answers. $n$ is the scoreable count and $k$ the correct count. Accuracy and intervals are percentages; Wilson intervals condition on scoreable answers, whereas bounds allow every missing outcome to vary. Source: paired analyses of the study's scored responses.}
+\begin{tabular}{llrrrrr}\toprule
+Model & Language & $n$ & $k$ & $k/n$ & 95\% Wilson & Bounds\\\midrule
+Qwen & en & 250 & 54 & 21.6 & [16.9, 27.1] & [21.6, 21.6]\\
+Qwen & es & 250 & 61 & 24.4 & [19.5, 30.1] & [24.4, 24.4]\\
+Qwen & zh & 247 & 31 & 12.6 & [9.0, 17.3] & [12.4, 13.6]\\
+Mistral & en & 139 & 76 & 54.7 & [46.4, 62.7] & [30.4, 74.8]\\
+Mistral & es & 102 & 47 & 46.1 & [36.7, 55.7] & [18.8, 78.0]\\
+Mistral & zh & 203 & 92 & 45.3 & [38.6, 52.2] & [36.8, 55.6]\\
+\bottomrule
+\end{tabular}\label{tab:fresh-cells}
+\end{table}
+\begin{table}[ht]
+\centering\small
+\caption{Paired English--target numerical correctness under published wording and brief-solution instructions. BC: both correct; E: English only correct; T: target only correct; NC: neither correct. SW counts equal wrong numerical answers and is a subset of NC. Each comparison requests 250 question pairs. Source: paired analyses of the study's scored responses.}
+\begin{tabular}{llrrrrrr}\toprule
+Model & Target & Pairs & BC & E & T & NC & SW\\\midrule
+Qwen & zh & 247 & 20 & 34 & 11 & 182 & 30\\
+Qwen & es & 250 & 35 & 19 & 26 & 170 & 51\\
+Mistral & zh & 112 & 35 & 26 & 12 & 39 & 4\\
+Mistral & es & 62 & 20 & 11 & 8 & 23 & 4\\
+\bottomrule
+\end{tabular}\label{tab:fresh-pairs}
+\end{table}
+\begin{table}[ht]
+\centering\small
+\caption{Target-language minus English contrasts. Differences and intervals are percentage points. The 95\% percentile interval resamples complete question pairs; bounds retain all requested pairs and allow missing correctness to vary. $p_H$ is the within-family Holm-adjusted exact McNemar value. Source: paired analyses of the study's scored responses.}
+\begin{tabular}{llrrrrr}\toprule
+Model & Language & Pairs & Difference & 95\% interval & Bounds & $p_H$\\\midrule
+Qwen & zh & 247 & -9.3 & [-14.6, -4.0] & [-9.2, -8.0] & 0.003\\
+Qwen & es & 250 & 2.8 & [-2.4, 8.0] & [2.8, 2.8] & 0.743\\
+Mistral & zh & 112 & -12.5 & [-23.2, -1.8] & [-38.0, 25.2] & 0.101\\
+Mistral & es & 62 & -4.8 & [-19.4, 8.1] & [-56.0, 47.6] & 0.743\\
+\bottomrule
+\end{tabular}\label{tab:fresh-language}
+\end{table}
+\begin{table}[ht]
+\centering\small
+\caption{Published minus archived wording contrasts. Differences and intervals are percentage points. The 95\% percentile interval resamples complete question pairs; bounds retain all requested pairs and allow missing correctness to vary. $p_H$ is the within-family Holm-adjusted exact McNemar value. Source: paired analyses of the study's scored responses.}
+\begin{tabular}{llrrrrr}\toprule
+Model & Language & Pairs & Difference & 95\% interval & Bounds & $p_H$\\\midrule
+Qwen & zh & 48 & -2.1 & [-10.4, 6.2] & [-2.0, 2.0] & 1.000\\
+Qwen & es & 50 & 2.0 & [-6.0, 12.0] & [2.0, 2.0] & 1.000\\
+Mistral & zh & 27 & 18.5 & [3.7, 33.3] & [-14.0, 42.0] & 0.250\\
+Mistral & es & 10 & 20.0 & [-20.0, 60.0] & [-50.0, 70.0] & 1.000\\
+\bottomrule
+\end{tabular}\label{tab:fresh-wording}
+\end{table}
+\begin{table}[ht]
+\centering\small
+\caption{Number-only minus brief-solution instruction contrasts. Differences and intervals are percentage points. The 95\% percentile interval resamples complete question pairs; bounds retain all requested pairs and allow missing correctness to vary. $p_H$ is the within-family Holm-adjusted exact McNemar value. Source: paired analyses of the study's scored responses.}
+\begin{tabular}{llrrrrr}\toprule
+Model & Language & Pairs & Difference & 95\% interval & Bounds & $p_H$\\\midrule
+Qwen & en & 100 & 2.0 & [-3.0, 8.0] & [2.0, 2.0] & 1.000\\
+Qwen & zh & 99 & 11.1 & [3.0, 19.2] & [10.0, 11.0] & 0.038\\
+Qwen & es & 100 & -1.0 & [-8.0, 6.0] & [-1.0, -1.0] & 1.000\\
+Mistral & en & 41 & -43.9 & [-61.0, -26.8] & [-66.0, 6.0] & $<0.001$\\
+Mistral & zh & 78 & -32.1 & [-43.6, -19.2] & [-45.0, -23.0] & $<0.001$\\
+Mistral & es & 40 & -37.5 & [-55.0, -20.0] & [-71.0, -1.0] & 0.003\\
+\bottomrule
+\end{tabular}\label{tab:fresh-format}
+\end{table}

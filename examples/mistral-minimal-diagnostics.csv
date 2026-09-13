@@ -1,0 +1,137 @@
+item_id,strict_status,marker_line_status,termination,marker_count,answer_line,marker_absent,repeated_marker,answer_label,currency_symbol,alphabetic_text,multiple_numeric_tokens
+mgsm_002,answer_unparseable,answer_unparseable,eos,1,"$22,000",False,False,False,True,False,True
+mgsm_193,answer_unparseable,answer_unparseable,eos,1,8 more pink plastic flamingos were out than white plastic flamingos.,False,False,False,False,True,False
+mgsm_222,answer_unparseable,answer_unparseable,eos,1,130 flowers,False,False,False,False,True,False
+mgsm_067,answer_unparseable,answer_unparseable,eos,1,595 gems in the chest.,False,False,False,False,True,False
+mgsm_235,answer_unparseable,answer_unparseable,eos,1,10 pizzas,False,False,False,False,True,False
+mgsm_009,answer_unparseable,answer_unparseable,eos,1,$460,False,False,False,True,False,False
+mgsm_247,answer_unparseable,answer_unparseable,eos,1,$29,False,False,False,True,False,False
+mgsm_139,answer_unparseable,answer_unparseable,eos,1,70 pink gumballs,False,False,False,False,True,False
+mgsm_091,answer_unparseable,answer_unparseable,eos,1,28 pets,False,False,False,False,True,False
+mgsm_073,answer_unparseable,answer_unparseable,eos,1,$255 (per month for 3 months),False,False,False,True,True,True
+mgsm_060,answer_unparseable,answer_unparseable,eos,1,17 good oranges,False,False,False,False,True,False
+mgsm_088,answer_unparseable,answer_unparseable,eos,1,"8,000 copies",False,False,False,False,True,True
+mgsm_018,answer_unparseable,answer_unparseable,eos,1,7 dozens of eggs,False,False,False,False,True,False
+mgsm_049,answer_unparseable,answer_unparseable,eos,1,30 units,False,False,False,False,True,False
+mgsm_099,answer_unparseable,answer_unparseable,eos,1,40 potted plants remain with Mary.,False,False,False,False,True,False
+mgsm_098,answer_unparseable,answer_unparseable,eos,1,5 cars drove through the traffic jam in the first 15 minutes.,False,False,False,False,True,True
+mgsm_204,answer_unparseable,answer_unparseable,eos,1,98 pens,False,False,False,False,True,False
+mgsm_226,answer_unparseable,answer_unparseable,eos,1,39%,False,False,False,False,False,False
+mgsm_108,answer_unparseable,answer_unparseable,eos,1,65 cookies,False,False,False,False,True,False
+mgsm_178,answer_unparseable,answer_unparseable,eos,1,122 crabs,False,False,False,False,True,False
+mgsm_190,answer_unparseable,answer_unparseable,eos,1,Final answer: 360 peaches.,False,False,True,False,True,False
+mgsm_180,answer_unparseable,answer_unparseable,eos,1,20 votes,False,False,False,False,True,False
+mgsm_236,answer_unparseable,answer_unparseable,eos,1,9 pens,False,False,False,False,True,False
+mgsm_249,answer_unparseable,answer_unparseable,eos,1,5600 calories,False,False,False,False,True,False
+mgsm_161,answer_unparseable,answer_unparseable,eos,1,32 fish were caught by Anakin and Locsin.,False,False,False,False,True,False
+mgsm_055,answer_unparseable,answer_unparseable,eos,1,14 bags,False,False,False,False,True,False
+mgsm_022,answer_unparseable,answer_unparseable,eos,1,7 DVDs,False,False,False,False,True,False
+mgsm_008,answer_unparseable,answer_unparseable,eos,1,0 miles,False,False,False,False,True,False
+mgsm_037,answer_unparseable,answer_unparseable,eos,1,John initially had 13 Lego sets.,False,False,False,False,True,False
+mgsm_167,ok,ok,eos,1,18,False,False,False,False,False,False
+mgsm_132,answer_unparseable,answer_unparseable,eos,1,50 tickets,False,False,False,False,True,False
+mgsm_152,answer_unparseable,answer_unparseable,eos,1,$4,False,False,False,True,False,False
+mgsm_026,answer_unparseable,answer_unparseable,eos,1,$243,False,False,False,True,False,False
+mgsm_146,answer_unparseable,answer_unparseable,eos,1,1625 Lego blocks,False,False,False,False,True,False
+mgsm_162,answer_unparseable,answer_unparseable,eos,1,$34.56,False,False,False,True,False,False
+mgsm_051,answer_unparseable,answer_unparseable,eos,1,5 hours,False,False,False,False,True,False
+mgsm_027,answer_unparseable,answer_unparseable,eos,1,$240.00,False,False,False,True,False,False
+mgsm_224,answer_unparseable,answer_unparseable,eos,1,$180,False,False,False,True,False,False
+mgsm_129,answer_unparseable,answer_unparseable,eos,1,"$10,000",False,False,False,True,False,True
+mgsm_023,answer_unparseable,answer_unparseable,eos,1,Final answer: The candle will be 10 centimeters shorter after burning from 1:00 PM to 5:00 PM.,False,False,True,False,True,True
+mgsm_040,answer_unparseable,answer_unparseable,eos,1,12 years old.,False,False,False,False,True,False
+mgsm_223,answer_unparseable,answer_unparseable,eos,1,$20000,False,False,False,True,False,False
+mgsm_005,answer_unparseable,answer_unparseable,eos,1,$149,False,False,False,True,False,False
+mgsm_043,answer_unparseable,answer_unparseable,eos,1,300 grams,False,False,False,False,True,False
+mgsm_030,answer_unparseable,answer_unparseable,eos,1,Final answer: Allen's age 10 years from now is 12.,False,False,True,False,True,True
+mgsm_154,answer_unparseable,answer_unparseable,eos,1,400 hours,False,False,False,False,True,False
+mgsm_012,answer_unparseable,answer_unparseable,eos,1,1 year,False,False,False,False,True,False
+mgsm_050,answer_unparseable,answer_unparseable,eos,1,$294,False,False,False,True,False,False
+mgsm_083,answer_unparseable,answer_unparseable,eos,1,600 thorns,False,False,False,False,True,False
+mgsm_241,answer_unparseable,answer_unparseable,eos,1,5 books,False,False,False,False,True,False
+mgsm_182,answer_unparseable,answer_unparseable,eos,1,36 years old.,False,False,False,False,True,False
+mgsm_163,answer_unparseable,answer_unparseable,eos,1,$54,False,False,False,True,False,False
+mgsm_243,answer_unparseable,answer_unparseable,eos,1,"38,570 minutes",False,False,False,False,True,True
+mgsm_197,answer_unparseable,answer_unparseable,eos,1,6277 children,False,False,False,False,True,False
+mgsm_104,answer_unparseable,answer_unparseable,eos,1,684 pieces left to be placed.,False,False,False,False,True,False
+mgsm_234,answer_unparseable,answer_unparseable,eos,1,28 vines,False,False,False,False,True,False
+mgsm_179,answer_unparseable,answer_unparseable,eos,1,$130,False,False,False,True,False,False
+mgsm_069,answer_unparseable,answer_unparseable,eos,1,$60,False,False,False,True,False,False
+mgsm_174,answer_unparseable,answer_unparseable,eos,1,111.6 minutes,False,False,False,False,True,False
+mgsm_142,answer_unparseable,answer_unparseable,eos,1,$140,False,False,False,True,False,False
+mgsm_061,answer_unparseable,answer_unparseable,eos,1,$1430,False,False,False,True,False,False
+mgsm_148,answer_unparseable,answer_unparseable,eos,1,$14,False,False,False,True,False,False
+mgsm_153,answer_unparseable,answer_unparseable,eos,1,49 fries were in the pack when Dave bought it.,False,False,False,False,True,False
+mgsm_198,answer_unparseable,answer_unparseable,eos,1,60 Pokemon cards,False,False,False,False,True,False
+mgsm_082,answer_unparseable,answer_unparseable,eos,1,628 pounds,False,False,False,False,True,False
+mgsm_124,answer_unparseable,answer_unparseable,eos,1,50 letters,False,False,False,False,True,False
+mgsm_120,answer_unparseable,answer_unparseable,eos,1,240 sheets of paper,False,False,False,False,True,False
+mgsm_130,answer_unparseable,answer_unparseable,eos,1,30 elves are left.,False,False,False,False,True,False
+mgsm_028,answer_unparseable,answer_unparseable,eos,1,5 miles,False,False,False,False,True,False
+mgsm_220,answer_unparseable,answer_unparseable,eos,1,70 minutes,False,False,False,False,True,False
+mgsm_057,answer_unparseable,answer_unparseable,eos,1,"Therefore, the maximum number of boxes that can be loaded onto the truck while not exceeding the bridge's weight limit is 83 boxes.",False,False,False,False,True,False
+mgsm_185,answer_unparseable,answer_unparseable,eos,1,30 apples,False,False,False,False,True,False
+mgsm_196,answer_unparseable,answer_unparseable,eos,1,120 pounds,False,False,False,False,True,False
+mgsm_092,answer_unparseable,answer_unparseable,eos,1,"Therefore, Jackson is 4 years old.",False,False,False,False,True,False
+mgsm_071,answer_unparseable,answer_unparseable,eos,1,60 instructions,False,False,False,False,True,False
+mgsm_128,answer_unparseable,answer_unparseable,eos,1,$880 is the total amount of money Dillon will spend.,False,False,False,True,True,False
+mgsm_225,answer_unparseable,answer_unparseable,eos,1,Final answer: 9 days for the round trip.,False,False,True,False,True,False
+mgsm_113,answer_unparseable,answer_unparseable,eos,1,25 flowers,False,False,False,False,True,False
+mgsm_199,answer_unparseable,answer_unparseable,eos,1,7500 cents,False,False,False,False,True,False
+mgsm_097,answer_unparseable,answer_unparseable,eos,1,12 (approximately),False,False,False,False,True,False
+mgsm_115,answer_unparseable,answer_unparseable,eos,1,$180,False,False,False,True,False,False
+mgsm_150,answer_unparseable,answer_unparseable,eos,1,0.43 minutes,False,False,False,False,True,False
+mgsm_033,answer_unparseable,answer_unparseable,eos,1,70 gold coins,False,False,False,False,True,False
+mgsm_239,answer_unparseable,answer_unparseable,eos,1,Final answer: 280 students went out through exit C.,False,False,True,False,True,False
+mgsm_016,answer_unparseable,answer_unparseable,eos,1,460 miles,False,False,False,False,True,False
+mgsm_042,answer_unparseable,answer_unparseable,eos,1,26 pieces,False,False,False,False,True,False
+mgsm_133,answer_unparseable,answer_unparseable,eos,1,13 miles,False,False,False,False,True,False
+mgsm_160,answer_unparseable,answer_unparseable,eos,1,16 feet,False,False,False,False,True,False
+mgsm_058,answer_unparseable,answer_unparseable,eos,1,$57.00,False,False,False,True,False,False
+mgsm_045,answer_unparseable,answer_unparseable,eos,1,68 hours,False,False,False,False,True,False
+mgsm_214,answer_unparseable,answer_unparseable,eos,1,"No final number, as the problem seems to have a mistake or inconsistency.",False,False,False,False,True,False
+mgsm_136,answer_unparseable,answer_unparseable,eos,1,6 female Scottish unicorns,False,False,False,False,True,False
+mgsm_068,answer_unparseable,answer_unparseable,eos,1,36 teachers,False,False,False,False,True,False
+mgsm_007,answer_unparseable,answer_unparseable,eos,1,60 minutes,False,False,False,False,True,False
+mgsm_188,answer_unparseable,answer_unparseable,eos,1,50 bags,False,False,False,False,True,False
+mgsm_080,answer_unparseable,answer_unparseable,eos,1,10 liters of water were left.,False,False,False,False,True,False
+mgsm_170,answer_unparseable,answer_unparseable,eos,1,$150,False,False,False,True,False,False
+mgsm_047,answer_unparseable,answer_unparseable,eos,1,$800,False,False,False,True,False,False
+mgsm_035,answer_unparseable,answer_unparseable,eos,1,5 points,False,False,False,False,True,False
+mgsm_244,answer_unparseable,answer_unparseable,eos,1,16 fries,False,False,False,False,True,False
+mgsm_094,answer_unparseable,answer_unparseable,eos,1,The total number of pets in the neighborhood is 198.,False,False,False,False,True,False
+mgsm_122,answer_unparseable,answer_unparseable,eos,1,42 hours,False,False,False,False,True,False
+mgsm_242,answer_unparseable,answer_unparseable,eos,1,3 hours,False,False,False,False,True,False
+mgsm_001,answer_unparseable,answer_unparseable,eos,1,Final answer: 3 bolts in total are needed for the robe.,False,False,True,False,True,False
+mgsm_106,answer_unparseable,answer_unparseable,eos,1,162 cubic inches is the total inner volume of all 3 boxes.,False,False,False,False,True,True
+mgsm_072,answer_unparseable,answer_unparseable,eos,1,$221,False,False,False,True,False,False
+mgsm_114,answer_unparseable,answer_unparseable,eos,1,300 ducks can be seen in Jamal's photograph of ducks at the zoo.,False,False,False,False,True,False
+mgsm_110,answer_unparseable,answer_unparseable,eos,1,45 roll-ups,False,False,False,False,True,False
+mgsm_052,answer_unparseable,answer_unparseable,eos,1,10 toys,False,False,False,False,True,False
+mgsm_111,answer_unparseable,answer_unparseable,eos,1,16 liters,False,False,False,False,True,False
+mgsm_230,answer_unparseable,answer_unparseable,eos,1,"$276,000",False,False,False,True,False,True
+mgsm_203,answer_unparseable,answer_unparseable,eos,1,27 slices of cheese,False,False,False,False,True,False
+mgsm_141,answer_unparseable,answer_unparseable,eos,1,No exact number for worker bees can be determined with the given information.,False,False,False,False,True,False
+mgsm_209,answer_unparseable,answer_unparseable,eos,1,$1500 is the cost of one cup.,False,False,False,True,True,False
+mgsm_017,answer_unparseable,answer_unparseable,eos,1,"$57,500",False,False,False,True,False,True
+mgsm_064,answer_unparseable,answer_unparseable,eos,1,300 miles,False,False,False,False,True,False
+mgsm_137,answer_unparseable,answer_unparseable,eos,1,$29.00,False,False,False,True,False,False
+mgsm_192,answer_unparseable,answer_unparseable,eos,1,91 trees,False,False,False,False,True,False
+mgsm_156,answer_unparseable,answer_unparseable,eos,1,1400 bananas,False,False,False,False,True,False
+mgsm_102,answer_unparseable,answer_unparseable,eos,1,28 glasses of water in a week.,False,False,False,False,True,False
+mgsm_207,answer_unparseable,answer_unparseable,eos,1,711g,False,False,False,False,True,False
+mgsm_006,answer_unparseable,answer_unparseable,eos,1,260 sheep,False,False,False,False,True,False
+mgsm_044,answer_unparseable,answer_unparseable,eos,1,$20.00,False,False,False,True,False,False
+mgsm_063,answer_unparseable,answer_unparseable,eos,1,$1606,False,False,False,True,False,False
+mgsm_191,answer_unparseable,answer_unparseable,eos,1,5 pounds,False,False,False,False,True,False
+mgsm_038,answer_unparseable,answer_unparseable,eos,1,5 miles/hour,False,False,False,False,True,False
+mgsm_245,answer_unparseable,answer_unparseable,eos,1,No solution found.,False,False,True,False,True,False
+mgsm_169,answer_unparseable,answer_unparseable,eos,1,120 miles,False,False,False,False,True,False
+mgsm_062,answer_unparseable,answer_unparseable,eos,1,"$74,390 (approx.)",False,False,False,True,True,True
+mgsm_121,answer_unparseable,answer_unparseable,eos,1,27 fruits,False,False,False,False,True,False
+mgsm_090,answer_unparseable,answer_unparseable,eos,1,225 lbs,False,False,False,False,True,False
+mgsm_189,answer_unparseable,answer_unparseable,eos,1,$24.67 each,False,False,False,True,True,False
+mgsm_087,answer_unparseable,answer_unparseable,eos,1,$798.60,False,False,False,True,False,False
+mgsm_194,answer_unparseable,answer_unparseable,eos,1,$10,False,False,False,True,False,False
+mgsm_070,answer_unparseable,answer_unparseable,eos,1,"$7,425.00",False,False,False,True,False,True
+mgsm_172,answer_unparseable,answer_unparseable,eos,1,50 years,False,False,False,False,True,False

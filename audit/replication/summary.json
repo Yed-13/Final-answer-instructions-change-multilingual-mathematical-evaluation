@@ -1,0 +1,9 @@
+{
+  "requests": 3600,
+  "responses": 3600,
+  "questions": 200,
+  "termination_statuses": {
+    "eos": 3595,
+    "length": 5
+  }
+}

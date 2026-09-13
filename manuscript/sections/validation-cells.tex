@@ -1,0 +1,36 @@
+\begin{table}[!htbp]\centering\small
+\caption{Validation outcomes on 136 questions per cell. Entries are correct/scoreable counts; every cell contains 136 requests. Prefix counts record text before the first marker, irrespective of correctness. R is the restrictive baseline. Source: paired analyses of the study's scored responses.}
+\label{tab:validation_cells}
+\begin{tabular}{@{}lllrrr@{}}\toprule
+Model & Language & Instruction & Strict & Marker-line & Prefix \\\midrule
+Qwen & en & R & 26/136 & 26/136 & 0 \\
+Qwen & en & Minimal & 127/135 & 127/135 & 135 \\
+Qwen & en & Clause removed & 125/136 & 125/136 & 136 \\
+Qwen & en & Scope explicit & 119/136 & 119/136 & 136 \\
+\addlinespace
+Qwen & zh & R & 15/134 & 15/134 & 0 \\
+Qwen & zh & Minimal & 92/122 & 92/126 & 82 \\
+Qwen & zh & Clause removed & 77/105 & 80/127 & 88 \\
+Qwen & zh & Scope explicit & 59/136 & 59/136 & 69 \\
+\addlinespace
+Qwen & es & R & 28/136 & 28/136 & 0 \\
+Qwen & es & Minimal & 112/135 & 112/135 & 135 \\
+Qwen & es & Clause removed & 113/133 & 113/133 & 135 \\
+Qwen & es & Scope explicit & 108/135 & 108/135 & 134 \\
+\addlinespace
+Mistral & en & R & 34/69 & 72/128 & 134 \\
+Mistral & en & Minimal & 0/1 & 0/1 & 136 \\
+Mistral & en & Clause removed & 4/11 & 4/11 & 133 \\
+Mistral & en & Scope explicit & 59/111 & 66/124 & 133 \\
+\addlinespace
+Mistral & zh & R & 55/111 & 58/126 & 131 \\
+Mistral & zh & Minimal & 11/28 & 36/70 & 134 \\
+Mistral & zh & Clause removed & 45/109 & 50/121 & 135 \\
+Mistral & zh & Scope explicit & 41/110 & 42/114 & 134 \\
+\addlinespace
+Mistral & es & R & 24/53 & 46/114 & 130 \\
+Mistral & es & Minimal & 21/49 & 21/49 & 131 \\
+Mistral & es & Clause removed & 9/22 & 15/35 & 134 \\
+Mistral & es & Scope explicit & 32/94 & 39/116 & 135 \\
+\addlinespace
+\bottomrule\end{tabular}\end{table}

@@ -1,0 +1,13 @@
+model,language,instruction,N,observed,correct,conditional_accuracy,bound_low,bound_high
+Qwen/Qwen2.5-7B-Instruct,en,restrictive_brief,100,100,26,0.26,0.26,0.26
+Qwen/Qwen2.5-7B-Instruct,en,minimal_brief,100,100,93,0.93,0.93,0.93
+Qwen/Qwen2.5-7B-Instruct,es,restrictive_brief,100,100,28,0.28,0.28,0.28
+Qwen/Qwen2.5-7B-Instruct,es,minimal_brief,100,99,82,0.8282828282828283,0.82,0.83
+Qwen/Qwen2.5-7B-Instruct,zh,restrictive_brief,100,99,14,0.1414141414141414,0.14,0.15
+Qwen/Qwen2.5-7B-Instruct,zh,minimal_brief,100,84,65,0.7738095238095238,0.65,0.81
+mistralai/Mistral-7B-Instruct-v0.3,en,restrictive_brief,100,63,37,0.5873015873015873,0.37,0.74
+mistralai/Mistral-7B-Instruct-v0.3,en,minimal_brief,100,6,3,0.5,0.03,0.97
+mistralai/Mistral-7B-Instruct-v0.3,es,restrictive_brief,100,42,21,0.5,0.21,0.79
+mistralai/Mistral-7B-Instruct-v0.3,es,minimal_brief,100,32,16,0.5,0.16,0.84
+mistralai/Mistral-7B-Instruct-v0.3,zh,restrictive_brief,100,79,32,0.4050632911392405,0.32,0.53
+mistralai/Mistral-7B-Instruct-v0.3,zh,minimal_brief,100,21,7,0.3333333333333333,0.07,0.86

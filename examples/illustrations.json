@@ -1,0 +1,122 @@
+[
+  {
+    "item_id": "mgsm_001",
+    "language": "en",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "condition": "restrictive",
+    "question": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+    "reference": "3",
+    "response": " To find the total number of bolts needed for the robe, we first need to determine the number of bolts for each color and then add them together.\n\n1. For the blue fiber, the robe requires 2 bolts.\n2. For the white fiber, the robe requires half as much as the blue fiber, which is 2 / 2 = 1 bolt.\n\nNow, let's add the number of bolts for both colors:\n\nTotal bolts = Blue bolts + White bolts\nTotal bolts = 2 + 1\n\n#### 3\n\nSo, the robe takes a total of 3 bolts.",
+    "termination": "eos",
+    "strict": {
+      "status": "answer_unparseable",
+      "prediction": null,
+      "correct": null
+    },
+    "marker_line": {
+      "status": "ok",
+      "prediction": "3",
+      "correct": true
+    }
+  },
+  {
+    "item_id": "mgsm_001",
+    "language": "en",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "condition": "clause_removed",
+    "question": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+    "reference": "3",
+    "response": " To find the total number of bolts needed for the robe, we first need to determine the number of bolts for each color and then add them together.\n\n1. For the blue fiber, the robe requires 2 bolts.\n2. For the white fiber, the robe requires half as much as the blue fiber, which is 2 / 2 = 1 bolt.\n\nNow, to find the total number of bolts, we add the number of bolts for each color:\n\nTotal bolts = Blue bolts + White bolts\nTotal bolts = 2 + 1\n\n#### Final answer: 3 bolts in total.",
+    "termination": "eos",
+    "strict": {
+      "status": "answer_unparseable",
+      "prediction": null,
+      "correct": null
+    },
+    "marker_line": {
+      "status": "answer_unparseable",
+      "prediction": null,
+      "correct": null
+    }
+  },
+  {
+    "item_id": "mgsm_001",
+    "language": "en",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "condition": "minimal",
+    "question": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+    "reference": "3",
+    "response": " To find the total number of bolts needed for the robe, we first need to determine the number of bolts for each color and then add them together.\n\n1. For the blue fiber, the robe requires 2 bolts.\n2. For the white fiber, the robe requires half as much as the blue fiber, which is 2 / 2 = 1 bolt.\n\nNow, to find the total number of bolts, we add the number of bolts for each color:\n\nTotal bolts = Blue bolts + White bolts\nTotal bolts = 2 + 1\n\n#### Final answer: 3 bolts in total are needed for the robe.",
+    "termination": "eos",
+    "strict": {
+      "status": "answer_unparseable",
+      "prediction": null,
+      "correct": null
+    },
+    "marker_line": {
+      "status": "answer_unparseable",
+      "prediction": null,
+      "correct": null
+    }
+  },
+  {
+    "item_id": "mgsm_002",
+    "language": "en",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "condition": "restrictive",
+    "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+    "reference": "70000",
+    "response": " To find the profit, we first need to determine the new value of the house after repairs. Since the value increased by 150%, the new value is 1.5 times the original value.\n\nNew value = Original value * 1.5\nNew value = $80,000 * 1.5\nNew value = $120,000\n\nNow, let's subtract the initial cost and the repair costs from the new value to find the profit.\n\nProfit = New value - Initial cost - Repair costs\nProfit = $120,000 - $80,000 - $50,000\nProfit = $10,000\n\n#### 10000",
+    "termination": "eos",
+    "strict": {
+      "status": "ok",
+      "prediction": "10000",
+      "correct": false
+    },
+    "marker_line": {
+      "status": "ok",
+      "prediction": "10000",
+      "correct": false
+    }
+  },
+  {
+    "item_id": "mgsm_002",
+    "language": "en",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "condition": "minimal",
+    "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+    "reference": "70000",
+    "response": " To find the profit, we first need to determine the new value of the house after the repairs. Since the value increased by 150%, we can calculate the new value as follows:\n\nNew value = Initial value * (1 + Increase percentage)\nNew value = $80,000 * (1 + 0.15)\nNew value = $80,000 * 1.15\nNew value = $92,000\n\nNow, let's subtract the initial cost and the repair costs from the new value to find the profit:\n\nProfit = New value - Initial cost - Repair costs\nProfit = $92,000 - $80,000 - $50,000\nProfit = $22,000\n\nSo, Josh made a profit of $22,000.\n\n#### $22,000",
+    "termination": "eos",
+    "strict": {
+      "status": "answer_unparseable",
+      "prediction": null,
+      "correct": null
+    },
+    "marker_line": {
+      "status": "answer_unparseable",
+      "prediction": null,
+      "correct": null
+    }
+  },
+  {
+    "item_id": "mgsm_002",
+    "language": "en",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "condition": "clause_removed",
+    "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+    "reference": "70000",
+    "response": " To find the profit, we first need to determine the new value of the house after repairs. Since the value increased by 150%, the new value is 1.5 times the original value (excluding the cost of repairs).\n\nNew value = Original value * 1.5\nNew value = $80,000 * 1.5 = $120,000\n\nNow, let's subtract the initial cost and the cost of repairs from the new value to find the profit.\n\nProfit = New value - Initial cost - Cost of repairs\nProfit = $120,000 - $80,000 - $50,000 = $10,000\n\nSo, Josh made a profit of $10,000.\n\n#### $10,000",
+    "termination": "eos",
+    "strict": {
+      "status": "answer_unparseable",
+      "prediction": null,
+      "correct": null
+    },
+    "marker_line": {
+      "status": "answer_unparseable",
+      "prediction": null,
+      "correct": null
+    }
+  }
+]

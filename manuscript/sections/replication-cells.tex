@@ -1,0 +1,30 @@
+\begin{table}[!htbp]\centering\small
+\caption{MSVAMP replication outcomes on 200 questions per cell. Entries are correct/scoreable counts ($k/n$). Correct delivery is $k/200$, extraction coverage is $n/200$, and binary-completion bounds are $[k/200,(k+200-n)/200]$. Every planned response is included. Source: scored replication responses.}
+\label{tab:replication_cells}
+\begin{tabular}{@{}lllrr@{}}\toprule
+Model & Language & Instruction & Strict & Marker-line \\\midrule
+Qwen & en & R & 130/199 & 130/199 \\
+Qwen & en & Clause removed & 187/200 & 187/200 \\
+Qwen & en & Scope explicit & 185/200 & 185/200 \\
+\addlinespace
+Qwen & zh & R & 106/197 & 106/197 \\
+Qwen & zh & Clause removed & 152/173 & 155/177 \\
+Qwen & zh & Scope explicit & 160/198 & 160/198 \\
+\addlinespace
+Qwen & es & R & 132/199 & 132/199 \\
+Qwen & es & Clause removed & 176/199 & 177/200 \\
+Qwen & es & Scope explicit & 176/199 & 176/199 \\
+\addlinespace
+Mistral & en & R & 71/105 & 132/191 \\
+Mistral & en & Clause removed & 22/32 & 26/38 \\
+Mistral & en & Scope explicit & 99/145 & 119/179 \\
+\addlinespace
+Mistral & zh & R & 92/159 & 108/187 \\
+Mistral & zh & Clause removed & 94/167 & 105/183 \\
+Mistral & zh & Scope explicit & 86/162 & 89/174 \\
+\addlinespace
+Mistral & es & R & 41/65 & 114/178 \\
+Mistral & es & Clause removed & 32/49 & 61/88 \\
+Mistral & es & Scope explicit & 84/127 & 114/167 \\
+\addlinespace
+\bottomrule\end{tabular}\end{table}

@@ -1,0 +1,9 @@
+# Data sources and provenance
+
+- **MGSM**: English, Chinese and Spanish files from Google Research's `url-nlp/mgsm` repository, used under its CC BY 4.0 license. The selected 250 questions and numerical references appear in the call records. Citation: Shi et al., *Language Models are Multilingual Chain-of-Thought Reasoners* (2022). Source: https://github.com/google-research/url-nlp/tree/main/mgsm
+- **MSVAMP**: `Mathoctopus/MSVAMP`, revision `301e2b3b168be70058c89c21c2fbdc9262102add`, published under Apache 2.0 according to the dataset card. The 200 sampled row IDs are recorded in `experiment/replication/design.json`. Citation: Chen et al. (2024), *Breaking Language Barriers in Multilingual Mathematical Reasoning: Insights and Observations*, Findings of EMNLP, pp. 7001–7016, https://doi.org/10.18653/v1/2024.findings-emnlp.411. Source: https://huggingface.co/datasets/Mathoctopus/MSVAMP
+- **Archived wording control**: 50 MGSM-overlap questions with the study's archived Chinese and Spanish machine translations, paired against the published wording. The exact executed texts are retained in the core calls. The comparison estimates a wording change, not a certified translation-quality difference.
+
+MSVAMP's developers describe machine translation with a sampled native-speaker check in Section 3.1 and Appendix C of their paper. That source check does not constitute independent review of this study's instructions or selected response set. English strings and numerical references were checked across all 1,000 downloaded rows before selection, and normalized English text had no exact match against the study's previous question inventories.
+
+Upstream benchmark notices are included in `licenses/`. Model weights are downloaded separately from the repositories specified in `model-versions.json` and remain subject to their respective terms. The release includes the study's generated response text and analysis code.

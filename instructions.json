@@ -1,0 +1,77 @@
+[
+  {
+    "language": "en",
+    "condition": "restrictive",
+    "instruction": "Solve the problem and explain your calculation briefly. On the last line, write #### followed by a space and your final numerical answer. After ####, write only the number, with no words, units, or further explanation."
+  },
+  {
+    "language": "en",
+    "condition": "minimal",
+    "instruction": "Solve the problem and explain your calculation briefly. End your answer with #### followed by the final number."
+  },
+  {
+    "language": "en",
+    "condition": "clause_removed",
+    "instruction": "Solve the problem and explain your calculation briefly. On the last line, write #### followed by a space and your final numerical answer."
+  },
+  {
+    "language": "en",
+    "condition": "scope_explicit",
+    "instruction": "Write the explanation before the final answer line. Solve the problem and explain your calculation briefly. On the last line, write #### followed by a space and your final numerical answer. After ####, write only the number, with no words, units, or further explanation."
+  },
+  {
+    "language": "en",
+    "condition": "number_only",
+    "instruction": "Solve the problem. Output one line: #### followed by a space and your final numerical answer. After ####, write only the number, with no words, units, or further explanation. Do not explain your calculation."
+  },
+  {
+    "language": "zh",
+    "condition": "restrictive",
+    "instruction": "解答问题并简要说明计算过程。最后一行写四个井号（####），接一个空格，然后写最终答案的数值。井号之后只写数值，不要写文字、单位或后续解释。"
+  },
+  {
+    "language": "zh",
+    "condition": "minimal",
+    "instruction": "解答问题并简要说明计算过程。在回答最后写 ####，后面接最终答案的数值。"
+  },
+  {
+    "language": "zh",
+    "condition": "clause_removed",
+    "instruction": "解答问题并简要说明计算过程。最后一行写四个井号（####），接一个空格，然后写最终答案的数值。"
+  },
+  {
+    "language": "zh",
+    "condition": "scope_explicit",
+    "instruction": "将计算过程写在最终答案行之前。解答问题并简要说明计算过程。最后一行写四个井号（####），接一个空格，然后写最终答案的数值。井号之后只写数值，不要写文字、单位或后续解释。"
+  },
+  {
+    "language": "zh",
+    "condition": "number_only",
+    "instruction": "解答问题。仅输出一行：四个井号（####），接一个空格，然后写最终答案的数值。井号之后只写数值，不要写文字、单位或后续解释。不要说明计算过程。"
+  },
+  {
+    "language": "es",
+    "condition": "restrictive",
+    "instruction": "Resuelve el problema y explica brevemente el cálculo. En la última línea, escribe #### seguido de un espacio y tu respuesta numérica final. Después de ####, escribe solo el número, sin palabras, unidades ni explicaciones adicionales."
+  },
+  {
+    "language": "es",
+    "condition": "minimal",
+    "instruction": "Resuelve el problema y explica brevemente el cálculo. Termina tu respuesta con #### seguido del número final."
+  },
+  {
+    "language": "es",
+    "condition": "clause_removed",
+    "instruction": "Resuelve el problema y explica brevemente el cálculo. En la última línea, escribe #### seguido de un espacio y tu respuesta numérica final."
+  },
+  {
+    "language": "es",
+    "condition": "scope_explicit",
+    "instruction": "Escribe la explicación antes de la línea de respuesta final. Resuelve el problema y explica brevemente el cálculo. En la última línea, escribe #### seguido de un espacio y tu respuesta numérica final. Después de ####, escribe solo el número, sin palabras, unidades ni explicaciones adicionales."
+  },
+  {
+    "language": "es",
+    "condition": "number_only",
+    "instruction": "Resuelve el problema. Escribe una sola línea: #### seguido de un espacio y tu respuesta numérica final. Después de ####, escribe solo el número, sin palabras, unidades ni explicaciones adicionales. No expliques el cálculo."
+  }
+]

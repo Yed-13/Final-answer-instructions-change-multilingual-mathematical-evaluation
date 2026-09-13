@@ -1,0 +1,10 @@
+{
+  "validated_contrasts": 36,
+  "checks": [
+    "paired counts",
+    "aggregate binary-completion bounds",
+    "exact sign/McNemar probabilities",
+    "Holm families"
+  ],
+  "status": "pass"
+}

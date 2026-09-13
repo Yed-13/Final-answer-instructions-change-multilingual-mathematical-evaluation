@@ -1,0 +1,18 @@
+{
+  "N": 136,
+  "strict_status": {
+    "answer_unparseable": 135,
+    "ok": 1
+  },
+  "termination": {
+    "eos": 136
+  },
+  "features": {
+    "marker_absent": 0,
+    "repeated_marker": 0,
+    "answer_label": 7,
+    "currency_symbol": 36,
+    "alphabetic_text": 103,
+    "multiple_numeric_tokens": 13
+  }
+}
