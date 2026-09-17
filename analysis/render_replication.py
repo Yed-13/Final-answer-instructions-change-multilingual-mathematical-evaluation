@@ -1,7 +1,7 @@
 """Render the complete replication tables from saved cell and contrast CSVs."""
 import csv
 from pathlib import Path
-R=Path(__file__).resolve().parents[1];folder=R/'audit/replication'
+R=Path(__file__).resolve().parents[1];folder=R/'audit/replication';sections=R/'manuscript/sections';sections.mkdir(parents=True,exist_ok=True)
 cells=list(csv.DictReader((folder/'cells.csv').open()));cs=list(csv.DictReader((folder/'contrasts.csv').open()));models=sorted({c['model'] for c in cells});langs=['en','zh','es'];arms=['restrictive','clause_removed','scope_explicit'];names={'restrictive':'R','clause_removed':'Clause removed','scope_explicit':'Scope explicit'}
 lookup={(c['model'],c['language'],c['answer_format'],c['evaluator']):c for c in cells}
 lines=[r'\begin{table}[!htbp]\centering\small',r'\caption{MSVAMP replication outcomes on 200 questions per cell. Entries are correct/scoreable counts ($k/n$). Correct delivery is $k/200$, extraction coverage is $n/200$, and binary-completion bounds are $[k/200,(k+200-n)/200]$. Every planned response is included. Source: scored replication responses.}',r'\label{tab:replication_cells}',r'\begin{tabular}{@{}lllrr@{}}\toprule',r'Model & Language & Instruction & Strict & Marker-line \\\midrule']
@@ -21,7 +21,7 @@ for ev in ['strict','marker_line']:
   ci=f"[{f('difference_ci_low'):.1f}, {f('difference_ci_high'):.1f}]" if int(c['complete_pairs'])>1 else '---'
   lines.append(f"{'Qwen' if c['model'].startswith('Qwen') else 'Mistral'}/{c['language']} & {names[c['arm']]} & {c['complete_pairs']} & {f('difference_b_minus_a'):+.1f} & {ci} & [{f('difference_bound_low'):.1f}, {f('difference_bound_high'):.1f}] & {ps} \\\\")
  lines.append(r'\bottomrule\end{tabular}\end{table}')
-(R/'manuscript/sections/replication-tables.tex').write_text('\n'.join(lines)+'\n');print('Rendered replication tables')
+(sections/'replication-tables.tex').write_text('\n'.join(lines)+'\n');print('Rendered replication tables')
 
 # Keep each display near its corresponding discussion in the article.
 import re

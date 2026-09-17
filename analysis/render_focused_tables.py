@@ -3,6 +3,7 @@ import csv
 import json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];folder=ROOT/'audit/focused_study'
+output=ROOT/'manuscript';output.mkdir(parents=True,exist_ok=True)
 cells=list(csv.DictReader((folder/'cells.csv').open()))
 contrasts=list(csv.DictReader((folder/'contrasts.csv').open()))
 short=lambda m:'Qwen' if m.startswith('Qwen') else 'Mistral'
@@ -22,7 +23,7 @@ for family,title,label in [('language','Target-language minus English','tab:fres
     rows=[[short(r['model']),r['language'],r['complete_pairs'],num(r['difference_b_minus_a']),interval(r['difference_ci_low'],r['difference_ci_high']),interval(r['difference_bound_low'],r['difference_bound_high']),pvalue(r['holm_p'])] for r in rs]
     caption=title+' contrasts. Differences and intervals are percentage points. The 95\\% percentile interval resamples complete question pairs; bounds retain all requested pairs and allow missing correctness to vary. $p_H$ is the within-family Holm-adjusted exact McNemar value.'
     tex+=table(caption,'llrrrrr','Model & Language & Pairs & Difference & 95\\% interval & Bounds & $p_H$',rows,label)
-(ROOT/'manuscript/focused-tables.tex').write_text(tex)
+(output/'focused-tables.tex').write_text(tex)
 report=['# Prospective MGSM study results','',json.dumps(json.loads((folder/'summary.json').read_text()),indent=2),'','## Cell outcomes','']
 for r in cells:report.append(f"- {short(r['model'])} {r['language']} {r['translation_arm']} {r['answer_format']}: {r['correct']}/{r['observed']} scoreable, N={r['N']}; conditional {num(r['conditional_accuracy'])}%; bounds {interval(r['bound_low'],r['bound_high'])}%.")
 report+=['','## Paired contrasts','']

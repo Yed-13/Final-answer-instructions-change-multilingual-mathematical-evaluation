@@ -36,7 +36,7 @@ handles,labels=axes[0].get_legend_handles_labels()
 fig.legend(handles,labels,loc='lower center',ncol=3,frameon=False,bbox_to_anchor=(.5,.01))
 
 fig.tight_layout(rect=(0,.11,1,.94))
-out=ROOT/'manuscript/figures';out.mkdir(exist_ok=True)
+out=ROOT/'manuscript/figures';out.mkdir(parents=True,exist_ok=True)
 fig.savefig(out/'focused-outcomes.pdf',bbox_inches='tight')
 fig.savefig(out/'focused-outcomes.png',dpi=200,bbox_inches='tight')
 print('Created focused-outcomes.pdf and .png from scored.jsonl')

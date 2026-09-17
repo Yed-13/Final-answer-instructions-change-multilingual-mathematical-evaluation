@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 cells=list(csv.DictReader((R/'audit/revision_study/cells.csv').open()))
 cs=list(csv.DictReader((R/'audit/revision_study/contrasts.csv').open()))
+sections=R/'manuscript/sections';sections.mkdir(parents=True,exist_ok=True)
 models=sorted({r['model'] for r in cells});langs=['en','zh','es'];arms=['restrictive','minimal','clause_removed','scope_explicit'];names=['R','Minimal','Clause removed','Scope explicit']
 lookup={(r['model'],r['language'],r['answer_format'],r['evaluator']):r for r in cells}
 lines=[r'\begin{table}[!htbp]\centering\small',r'\caption{Validation outcomes on 136 questions per cell. Entries are correct/scoreable counts; every cell contains 136 requests. Prefix counts record text before the first marker, irrespective of correctness. R is the restrictive baseline.}',r'\label{tab:validation_cells}',r'\begin{tabular}{@{}lllrrr@{}}\toprule',r'Model & Language & Instruction & Strict & Marker-line & Prefix \\\midrule']
@@ -29,7 +30,7 @@ for ev in ['strict','marker_line']:
   ci=f"[{f('difference_ci_low'):.1f}, {f('difference_ci_high'):.1f}]" if int(c['complete_pairs'])>1 else '---'
   lines.append(f"{ml} & {name} & {c['complete_pairs']} & {f('difference_b_minus_a'):+.1f} & {ci} & [{f('difference_bound_low'):.1f}, {f('difference_bound_high'):.1f}] & {ps} \\\\")
  lines += [r'\bottomrule\end{tabular}\end{table}']
-(R/'manuscript/sections/validation-tables.tex').write_text('\n'.join(lines)+'\n')
+(sections/'validation-tables.tex').write_text('\n'.join(lines)+'\n')
 plt.rcParams.update({'font.size':11})
 fig,axes=plt.subplots(3,2,figsize=(8.5,8),sharex=True)
 colors=['#287D8E','#D78642','#D8D8D8']
@@ -48,7 +49,7 @@ for col,model in enumerate(models):
   ax.spines[['top','right','left']].set_visible(False);ax.tick_params(axis='y',length=0)
   if row==2:ax.set_xlabel('Fraction of 136 requests')
 handles,labels=axes[0,0].get_legend_handles_labels();fig.legend(handles,labels,loc='lower center',ncol=3,frameon=False)
-fig.tight_layout(rect=(0,.04,1,1));folder=R/'manuscript/figures'
+fig.tight_layout(rect=(0,.04,1,1));folder=R/'manuscript/figures';folder.mkdir(parents=True,exist_ok=True)
 for ext in ['pdf','png']:fig.savefig(folder/('validation-outcomes.'+ext),dpi=200,bbox_inches='tight')
 print('Rendered validation tables and outcome figure')
 

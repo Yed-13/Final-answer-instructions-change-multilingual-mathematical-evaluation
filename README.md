@@ -11,7 +11,7 @@ python -m pip install -r requirements.txt
 python reproduce.py
 ```
 
-This reads the saved responses, scores them with the two specified extraction rules, recomputes paired comparisons and renders the MGSM tables and figures. It also verifies the original MGSM validation statistics using a separate aggregate calculation. A GPU and model downloads are needed for new generation, but the saved-response analyses run on a CPU.
+This reads the saved responses, scores them with the two specified extraction rules, recomputes paired comparisons and renders the MGSM tables and figures into the ignored `manuscript/` build directory. It also verifies the original MGSM validation statistics using a separate aggregate calculation. A GPU and model downloads are needed for new generation, but the saved-response analyses run on a CPU.
 
 | Stage | Questions | Requests | Location |
 |---|---:|---:|---|
