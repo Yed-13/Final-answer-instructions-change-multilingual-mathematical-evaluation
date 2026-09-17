@@ -2,6 +2,10 @@
 
 Experiment materials for study of final-answer instructions with Qwen2.5-7B-Instruct and Mistral-7B-Instruct-v0.3 in English, Chinese and Spanish.
 
+Companion materials for “Final-answer instructions change multilingual mathematical evaluation: clause-level controls and extraction sensitivity”, submitted to *Language Resources and Evaluation*.
+
+**Author and corresponding contact:** Zehao Li, Northeastern University, Boston, Massachusetts, USA; li.zehao5@northeastern.edu.
+
 ## Reproduce the reported analyses
 
 Use Python 3.12 and install the analysis dependencies:
